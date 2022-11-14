@@ -1,0 +1,12 @@
+<div class="container">
+    <app-nav></app-nav>
+
+    <div class="filtro form-group">
+        <input class="control-form" type="text" [(ngModel)]="categoria" placeholder="🔎 Buscar en el Blog" (keyup)="filter()">
+        <p *ngIf="check">*No se ha encontrado ninguna coincidencia</p>
+    </div>
+
+    <div class="posts">
+        <card-post *ngFor="let post of posts" [post]="post"></card-post>
+    </div>
+</div>

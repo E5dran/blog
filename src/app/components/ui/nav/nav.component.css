@@ -1,0 +1,31 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+ul {
+    list-style: none;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 3px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav>ul>li:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+.postear {
+    background-color: gold;
+}
+
+nav>ul>.postear:hover {
+    background-color: goldenrod;
+}

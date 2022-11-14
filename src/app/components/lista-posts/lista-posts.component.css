@@ -1,0 +1,14 @@
+.container {
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+card-post {
+    width: 100%;
+}
